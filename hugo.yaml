@@ -1,61 +1,19 @@
 # Configuration
-title: سایت من
+title: حسین فردمحمدی
 
+enableRobotsTXT: true
+enableGitInfo: true
+enableEmoji: false
+hasCJKLanguage: true
 
-# import hextra as module
-module:
-  imports:
-  - path: github.com/imfing/hextra
+# services:
+#   googleAnalytics:
+#     ID: G-MEASUREMENT_ID
 
-markup:
-  # allow raw html
-  goldmark:
-    renderer:
-      unsafe: true
-
-  # enable hextra syntax highlight
-  highlight:
-    noClasses: false
-
-menu:
-  main:
-    - name: مستندات
-      pageRef: /docs
-      weight: 1
-    - name: درباره من
-      pageRef: /about
-      weight: 2
-    - name: تماس با من ↗
-      url: "https://github.com/imfing"
-      weight: 3
-    - name: Search
-      weight: 4
-      params:
-        type: search
-    - name: GitHub
-      weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
-      params:
-        icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
-      params:
-        icon: x-twitter
-
-params:
-  navbar:
-    displayTitle: true
-    displayLogo: false
-
-  footer:
-    displayCopyright: false
-    displayPoweredBy: true
-
-  editURL:
-    enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
-
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
 
 
 defaultContentLanguage: fa
@@ -64,3 +22,112 @@ languages:
     languageName: فارسی
     languageCode: fa
     languageDirection: rtl
+
+
+module:
+  imports:
+  - path: github.com/imfing/hextra
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: صفحه اصلی
+      pageRef: /
+      weight: 1
+    - name: وبلاگ
+      pageRef: /blog
+      weight: 4
+    - name: نمونه‌کار‌ها
+      pageRef: /portfolio
+      weight: 3
+    - name: درباره من
+      pageRef: /about
+      weight: 2
+    - name: جستجو
+      weight: 6
+      params:
+        type: search
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/logo.svg
+      dark: images/logo-dark.svg
+      # width: 40
+      # height: 20
+      # link: /
+    width: wide
+
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: normal
+
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
+
+  footer:
+    enable: true
+    displayCopyright: false
+    displayPoweredBy: false
+    width: normal
+
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  # Search
+  # flexsearch is enabled by default
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+      # full | forward | reverse | strict
+      # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+      tokenize: forward
+
+  editURL:
+    enable: false
+    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
+
+  highlight:
+    copy:
+      enable: true
+      # hover | always
+      display: hover
+
+  comments:
+    enable: false
+    type: giscus
+
+    # https://giscus.app/
+    giscus:
+      repo: imfing/hextra
+      repoId: R_kgDOJ9fJag
+      category: General
+      categoryId: DIC_kwDOJ9fJas4CY7gW
+      # mapping: pathname
+      # strict: 0
+      # reactionsEnabled: 1
+      # emitMetadata: 0
+      # inputPosition: top
+      # lang: en

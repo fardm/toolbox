@@ -1,0 +1,245 @@
+:root {
+  --light: #ffffff;
+  --lightgray: #dfdfdf;
+  --gray: #9e9e9e;
+  --darkgray: #313131;
+  --blurple: #5865F2;
+
+}
+
+/* تنظیمات برای حالت تاریک */
+html[class~="dark"] {
+  --light: #ffffff0d;
+  --lightgray: #4c4c4c;
+  --gray: #7f7f7f;
+  --darkgray: #cfcfcf;
+
+  
+
+
+}
+
+
+/* تایپوگرافی */
+  body {
+    font-family: "Vazirmatn", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  h2, h3, h4, h5, h6 {
+    border-bottom: none;
+    margin-top: 0.1rem !important;
+  }
+
+  p {
+    font-size: 1.1em !important;
+    line-height: 1.95rem !important;
+    margin-top: 0.5rem !important;
+  }
+
+/* وسط چین کردن آیکون */
+  .hx-align-text-bottom {
+    vertical-align: middle;
+}
+
+
+/*سوشال مدیا */
+  .group1 {
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      gap: 25px;
+  }
+
+  .footer-link {
+      display: inline-block;
+      width: 1.6em;
+      height: 1.6em;
+  }
+
+  .footer-svg {
+      opacity: 1;
+      /* filter: grayscale(100%); */
+      transition: filter 0.3s ease;
+      transition: scale .3s ease;
+  }
+
+  .footer-svg:hover {
+      /* filter: grayscale(0%); */
+      scale: 1.1;
+      opacity: 0.65;
+  }
+
+
+  
+/* صفحه رزومه */
+
+.main {
+  display: flex;
+  direction: rtl;
+  gap: 30px;
+  max-width: 70rem;
+  margin: auto;
+}
+
+.main > .sidebar {
+  flex-basis: 30%;
+  padding: 25px;
+  height: fit-content;
+  background-color: var(--light);
+  border-radius: 12px;
+  border: solid 1px var(--lightgray);
+  position: sticky;
+  top: 5rem;
+}
+
+.main > .content {
+  flex-basis: 70%;
+
+}
+
+.box {
+  padding: 25px;
+  margin-bottom: 25px;
+  background-color: var(--light);
+  border-radius: 12px;
+  border: solid 1px var(--lightgray)
+
+}
+
+
+
+/* آیکون باکس */
+  .icon-box {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+  }
+
+  .icon img{
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .info {
+    margin-right: 10px;
+  }
+
+  .info-title {
+    font-size: 14px;
+    color: var(--gray);
+    margin: 0;
+  }
+
+  .info-address {
+    font-size: 16px;
+    color: var(--darkgray);
+    margin: 0;
+  }
+
+  /* دکمه */
+  /* توپر */
+  .button1 {
+  background-color: var(--blurple);
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1em;
+  }  
+
+  .button1:hover {
+    opacity: 0.7;
+  }
+
+  .button2 {
+  background-color: #30335a;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1em;
+  }  
+
+  .button2:hover {
+    opacity: 0.7;
+  }  
+
+  /* تو خالی */
+  .button3 {
+      background-color: transparent;
+      color: var(--darkgray);
+      padding: 8px 15px;
+      border: 1px solid var(--darkgray);
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      font-family: var(--bodyFont);
+      font-size: 0.9em;
+      } 
+  
+  .button3:hover {
+      background-color: var(--tertiary);
+      color: white;
+      border: 1px solid var(--secondary);
+      }
+
+
+
+/* تایم لاین */
+
+  .timeline {
+    position: relative;
+    margin: 20px 0;
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 50px;
+    width: 2px;
+    height: 100%;
+    background-color: #d3d3d3;
+  }
+  
+  .timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .timeline-icon {
+    background-color: var(--blurple);
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    right: 25px;
+  }
+  
+  .timeline-content {
+    background-color: #aeb1cf14;
+    border: solid 1px var(--lightgray);
+    padding: 15px;
+    border-radius: 8px;
+    margin-right: 90px;
+    width: 100%;
+  }
+
+  .timeline-date {
+    color: var(--blurple);
+    margin-bottom: 10px;
+  }
+
+  
