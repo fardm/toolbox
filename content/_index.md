@@ -26,7 +26,3 @@ layout: wide
 <a href="about" class="button1" style="margin: 0px 10px;">درباره من</a>
 <a href="portfolio" class="button2" style="margin: 0px 10px;">نمونه‌کارها</a>
 </div>
-
-
-
-
