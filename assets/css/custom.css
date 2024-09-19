@@ -136,7 +136,7 @@ html[class~="dark"] {
   .info-title {
     font-size: 14px;
     color: var(--gray);
-    margin: 0;
+    margin: 0px !important;
   }
 
   .info-address {
@@ -164,7 +164,7 @@ html[class~="dark"] {
   }
 
   .button2 {
-  background-color: #30335a;
+  background-color: var(--second);
   color: white;
   padding: 8px 20px;
   border: none;
@@ -276,7 +276,7 @@ html[class~="dark"] {
   }
 
   .skills-item {
-    margin-bottom: 15px;
+    margin: 25px 0;
   }
 
   .progress-bar {
@@ -370,3 +370,37 @@ html[class~="dark"] {
   .dot.active {
     background-color: var(--blurple);
   }
+
+
+
+  /* لوگوی کارفرمایان */
+
+.logos-container {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.logo-item {
+  opacity: 0.7;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  transition: scale .3s ease;
+}
+
+.logo-item:hover {
+  filter: grayscale(0%);
+  scale: 1.05;
+  opacity: 1;
+}
+
+/* حالت موبایل */
+@media (max-width: 767px) { 
+  .logos-container {
+    overflow-x: auto;
+}
+  .logo-item {
+    flex: 0 0 50%;
+  }
+}
+
