@@ -148,6 +148,7 @@ html[class~="dark"] {
   border-radius: 50px;
   cursor: pointer;
   font-size: 1em;
+  text-decoration-line: none;
   }  
 
   .button1:hover {
@@ -162,6 +163,7 @@ html[class~="dark"] {
   border-radius: 50px;
   cursor: pointer;
   font-size: 1em;
+  text-decoration-line: none;
   }  
 
   .button2:hover {

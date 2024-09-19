@@ -5,7 +5,7 @@ layout: wide
 
 <br/><br/>
 
-<img src="Attachments/Asset.png" alt="profile" loading="lazy" width="250px">
+<img src="images/Asset.png" alt="profile" loading="lazy" width="250px">
 
 <h1 align="center">حسین فردمحمدی</h1>
 
@@ -29,3 +29,4 @@ layout: wide
 
 
 
+<a href="about" class="button1">برو به درباره من</a>
