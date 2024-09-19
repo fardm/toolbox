@@ -15,21 +15,21 @@ layout: wide
 
 <div class="main">
     <aside class="sidebar">
-        <img src="/images/Asset.png" alt="profile" loading="lazy" width="200px">
+        <img src="images/Asset.png" alt="profile" loading="lazy" width="200px">
         <h3 align="center">حسین فردمحمدی</h3>
         <p align="center" style="color: #a5a5a5; font-size: 1.3em">طراح گرافیک</p>
         <br/><br/>
         <div align="center" class="group1">
-        <a href="https://instagram.com/ifard.ir/" title="اینستاگرام" class="footer-link"><img src="/Attachments/instagram.svg" class="footer-svg"></a>
-        <a href="https://t.me/ifard_ir/" title="تلگرام" class="footer-link"><img src="/Attachments/telegram.svg" class="footer-svg"></a>
-        <a href="https://twitter.com/ifard_ir/" title="توییتر" class="footer-link"><img src="/Attachments/twitter.svg" class="footer-svg"></a>
+        <a href="https://instagram.com/ifard.ir/" title="اینستاگرام" class="footer-link"><img src="images/instagram.svg" class="footer-svg"></a>
+        <a href="https://t.me/ifard_ir/" title="تلگرام" class="footer-link"><img src="images/telegram.svg" class="footer-svg"></a>
+        <a href="https://twitter.com/ifard_ir/" title="توییتر" class="footer-link"><img src="images/twitter.svg" class="footer-svg"></a>
         </div>
         <br/><br/>
         <hr>
         <div>
-        <p>{{< box title="ایمیل" info="info@hoseinfm.ir" link="/Attachments/email.svg" >}}</p>
-        <p>{{< box title="وب سایت" info="www.hoseinfm.ir" link="/Attachments/link.svg" >}}</p>
-        <p>{{< box title="محل سکونت" info="ایران، قم" link="/Attachments/location.svg" >}}</p>
+        <p>{{< box title="ایمیل" info="info@hoseinfm.ir" link="images/email.svg" >}}</p>
+        <p>{{< box title="وب سایت" info="www.hoseinfm.ir" link="images/link.svg" >}}</p>
+        <p>{{< box title="محل سکونت" info="ایران، قم" link="images/location.svg" >}}</p>
         <div>
     </aside>
     <main class="content">
