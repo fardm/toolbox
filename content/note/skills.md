@@ -1,6 +1,7 @@
 ---
 title: skill
 toc: false
+draft: true
 ---
 
 <div class="box">

@@ -18,7 +18,7 @@
   {{- if $enableFooterSwitches -}}
     <div class="hx-mx-auto hx-flex hx-gap-2 hx-py-2 hx-px-4 {{ $footerWidth }}">
       {{- partial "language-switch.html" (dict "context" .) -}}
-      {{- with $displayThemeToggle }}{{ partial "theme-toggle.html" }}{{ end -}}
+      <!-- {{- with $displayThemeToggle }}{{ partial "theme-toggle.html" }}{{ end -}} -->
     </div>
     {{- if or hugo.IsMultilingual $displayThemeToggle -}}
       <hr class="dark:hx-border-neutral-800" />

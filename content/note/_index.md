@@ -1,3 +1,4 @@
 ---
 title: note
+draft: true
 ---

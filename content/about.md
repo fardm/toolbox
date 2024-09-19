@@ -28,8 +28,6 @@ layout: wide
 </style>
 
 
-<br/><br/>
-
 <div class="main">
     <aside class="sidebar">
         <img src="/images/Asset.png" alt="profile" loading="lazy" width="200px">

@@ -8,7 +8,6 @@
 
 }
 
-/* تنظیمات برای حالت تاریک */
 html[class~="dark"] {
   --light: #ffffff0d;
   --lightgray: #4c4c4c;
@@ -16,10 +15,6 @@ html[class~="dark"] {
   --darkgray: #cfcfcf;
   --blurple: #616ce2;
   --second: #464a83;
-
-  
-
-
 }
 
 
@@ -39,6 +34,13 @@ html[class~="dark"] {
     font-size: 1.1em !important;
     line-height: 1.95rem !important;
     margin-top: 0.5rem !important;
+  }
+
+
+/* دکمه تغییر تم */
+  .theme-toggle{
+    background-color: var(--lightgray);
+    color: var(--darkgray);
   }
 
 /*سوشال مدیا */
@@ -213,7 +215,7 @@ html[class~="dark"] {
     right: 25px;
     width: 2px;
     height: 100%;
-    background-color: #d3d3d3;
+    background-color: var(--lightgray);
   }
   
   .timeline-item {
@@ -224,23 +226,23 @@ html[class~="dark"] {
   }
   
   .timeline-icon {
-    background-color: var(--blurple);
-    color: #fff;
+    background-color: var(--lightgray);
+    color: var(--darkgray);
     font-size: 0.8em;
     font-weight: bold;
-    border-radius: 50%;
+    border-radius: 16px;
     padding: 10px;
     width: 50px;
     height: 50px;
     text-align: center;
     line-height: 30px;
     position: absolute;
-    right: -10x;
   }
   
   .timeline-content {
     background-color: #aeb1cf14;
-    border: solid 1px var(--lightgray);
+    border-left: solid 3px var(--lightgray);
+    /* border: solid 1px var(--lightgray); */
     padding: 15px;
     border-radius: 8px;
     margin-right: 60px;

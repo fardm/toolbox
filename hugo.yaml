@@ -52,10 +52,10 @@ menu:
     - name: درباره من
       pageRef: /about
       weight: 2
-    - name: جستجو
-      weight: 6
-      params:
-        type: search
+    # - name: جستجو
+    #   weight: 6
+    #   params:
+    #     type: search
 
 params:
   navbar:
@@ -67,7 +67,7 @@ params:
       # width: 40
       # height: 20
       # link: /
-    width: wide
+    width: normal
 
   page:
     # full (100%), wide (90rem), normal (1280px)
@@ -79,8 +79,8 @@ params:
     displayToggle: true
 
   footer:
-    enable: true
-    displayCopyright: false
+    enable: false
+    displayCopyright: true
     displayPoweredBy: false
     width: normal
 
