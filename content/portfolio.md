@@ -1,0 +1,41 @@
+---
+title: نمونه‌کارها
+toc: false
+layout: wide
+---
+<div style="max-width: 70rem; margin: auto;">
+{{< cards >}}
+  {{< card link="#" title="پوستر دوره ایلوستریتور" image="/images/Artboard01.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+
+  {{< card link="#" title="گزارش عملکرد عروج" image="/images/Artboard02.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+
+  {{< card link="#" title="استوری موشن دوره آموزشی" image="/images/Artboard03.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+
+  {{< card link="#" title="پوستر دوره جنگ ترکیبی" image="/images/Artboard04.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+
+  {{< card link="#" title="گزارش عملکرد موسسه تسنیم" image="/images/Artboard05.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+
+  {{< card link="#" title="استوری موشن اجاره ویلا" image="/images/Artboard06.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+
+  {{< card link="#" title="پوستر اتاق فرار" image="/images/Artboard07.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+
+  {{< card link="#" title="کاتالوگ طرح‌نامه" image="/images/Artboard08.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+
+  {{< card link="#" title="استوری موشن دوره ایتا مارکتینگ" image="/images/Artboard09.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+
+  {{< card link="#" title="پوستر جشنواره رأی برتر" image="/images/Artboard10.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+  
+{{< /cards >}}
+</div>
+
+
+<style>
+.hx-text-gray-700 {
+  justify-content: center;
+}
+
+h1 {
+  font-size: 1.8rem !important;
+  margin-bottom: 3rem;
+}
+</style>
