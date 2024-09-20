@@ -5,7 +5,7 @@
     <div class="info">
         <p class="info-title">{{ .Params.title }}</p>
         {{ if .Params.link }}
-            <a class="info-address" href="{{ .Params.link }}">{{ .Params.info }}</a>
+            <a class="info-address" href="{{ .Params.link }}" target="_blank" rel="nofollow">{{ .Params.info }}</a>
         {{ else }}
             <span class="info-address">{{ .Params.info }}</span>
         {{ end }}

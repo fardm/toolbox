@@ -448,3 +448,27 @@ nav > * {
 
   }
 }
+
+
+
+/* گالری تصاویر */
+.main-image img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.thumbnail-gallery {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.thumbnail {
+  margin: 0 10px;
+}
+
+.thumbnail img {
+  width: 100px;
+  cursor: pointer;
+}

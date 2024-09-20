@@ -7,7 +7,7 @@ cascade:
 ---
 
 <div class="detail">
-{{< box title="کارفرما" info="سازمان قضایی نیروهای مسلح" icon="/images/user.svg" >}}
+{{< box title="کارفرما" info="سازمان قضایی نیروهای مسلح" link="https://imj.eadl.ir/" icon="/images/user.svg" >}}
 {{< box title="تاریخ طراحی" info="آذر ۱۴۰۲" icon="/images/calendar.svg" >}}
 {{< box title="دسته بندی" info="پوستر، اینفوگرافیک" icon="/images/folder.svg" >}}
 </div>

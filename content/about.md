@@ -81,7 +81,7 @@ layout: wide
                     <p class="timeline-date">تیر ۱۴۰۱ تاکنون</p>
                     <h4>فریلنسینگ</h4>
                     <p style="font-size: 1em !important;">طراحی پوستر، کاتالوگ و گرافیک شبکه‌های اجتماعی به صورت فریلنسینگ</p>
-                    <a href="https://www.karlancer.com/profile/116169">{{< icon "external-link" >}}</a>
+                    <a href="https://www.karlancer.com/profile/116169" target="_blank" rel="nofollow">{{< icon "external-link" >}}</a>
                     </div>
                 </div>
                 <div class="timeline-item">
@@ -90,7 +90,7 @@ layout: wide
                     <p class="timeline-date">مهر ۱۴۰۰ تا آذر ۱۴۰۱</p>
                     <h4>تشکل فرهنگی عروج</h4>
                     <p style="font-size: 1em !important;">طراحی پوستر و ملزومات گرافیکی دوره‌های آموزشی، طراحی و صفحه‌آرایی گزارش عملکرد سالیانه، گرافیک شبکه‌های اجتماعی، صدور گواهینامه</p>
-                    <a href="https://orooj.org/">{{< icon "external-link" >}}</a>
+                    <a href="https://orooj.org/" target="_blank" rel="nofollow">{{< icon "external-link" >}}</a>
                     </div>
                 </div>
             </div>
@@ -129,12 +129,12 @@ layout: wide
         </div>
         <div class="box">
             <div class="logos-container">
-                <a href="https://orooj.org/" title="تشکل فرهنگی عروج" class="logo-item"><img src="/images/logo1.png" alt="Logo 1"></a>
-                <a href="https://mfvm.ir/" title="موسسه ولاء منتظر" class="logo-item"><img src="/images/logo2.png" alt="Logo 2"></a>
-                <a href="https://steelon.org/" title="بازرگانی استیلون" class="logo-item"><img src="/images/logo3.png" alt="Logo 3"></a>
-                <a href="https://www.instagram.com/anashid__mezon/" title="مزون آناشید" class="logo-item"><img src="/images/logo4.png" alt="Logo 4"></a>
-                <a href="https://imj.eadl.ir/" title="سازمان قضایی نیروهای مسلح" class="logo-item"><img src="/images/logo5.png" alt="Logo 5"></a>
-                <a href="https://etasnim.com/" title="موسسه تسنیم" class="logo-item"><img src="/images/logo6.png" alt="Logo 6"></a>
+                <a href="https://orooj.org/" target="_blank" rel="nofollow" title="تشکل فرهنگی عروج" class="logo-item"><img src="/images/logo1.png" alt="Logo 1"></a>
+                <a href="https://mfvm.ir/" target="_blank" rel="nofollow" title="موسسه ولاء منتظر" class="logo-item"><img src="/images/logo2.png" alt="Logo 2"></a>
+                <a href="https://steelon.org/" target="_blank" rel="nofollow" title="بازرگانی استیلون" class="logo-item"><img src="/images/logo3.png" alt="Logo 3"></a>
+                <a href="https://www.instagram.com/anashid__mezon/" target="_blank" rel="nofollow" title="مزون آناشید" class="logo-item"><img src="/images/logo4.png" alt="Logo 4"></a>
+                <a href="https://imj.eadl.ir/" target="_blank" rel="nofollow" title="سازمان قضایی نیروهای مسلح" class="logo-item"><img src="/images/logo5.png" alt="Logo 5"></a>
+                <a href="https://www.instagram.com/tasnimlenjan/" target="_blank" rel="nofollow" title="موسسه تسنیم" class="logo-item"><img src="/images/logo6.png" alt="Logo 6"></a>
             </div>
         </div>
     </main>
