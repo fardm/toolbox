@@ -7,9 +7,9 @@ cascade:
 ---
 
 <div class="detail">
-{{< box title="کارفرما" info="میلاد هدایتی" action="#" link="/images/user.svg" >}}
-{{< box title="تاریخ طراحی" info="تیر 1401" action="#" link="/images/calendar.svg" >}}
-{{< box title="دسته بندی" info="استوری موشن" action="#" link="/images/folder.svg" >}}
+{{< box title="کارفرما" info="میلاد هدایتی" icon="/images/user.svg" >}}
+{{< box title="تاریخ طراحی" info="تیر 1401" icon="/images/calendar.svg" >}}
+{{< box title="دسته بندی" info="استوری موشن" icon="/images/folder.svg" >}}
 </div>
 
 <br/>

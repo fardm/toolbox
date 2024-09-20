@@ -3,6 +3,12 @@ title: مستندات
 draft: true
 ---
 
+## دستورات
+
+```
+hugo server --disableFastRender --baseURL http://localhost:1313
+```
+
 ## دکمه تغییر تم
 از فوتر به نوبار منتقل کردم.
 توی فایل footet.html کد مربوط بهش رو کامنت کردم.

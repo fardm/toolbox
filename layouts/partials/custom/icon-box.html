@@ -1,9 +1,13 @@
 <div class="icon-box">
     <div class="icon">
-        <img src="{{ .Params.link }}" alt="icon">
+        <img src="{{ .Params.icon }}" alt="icon">
     </div>
     <div class="info">
         <p class="info-title">{{ .Params.title }}</p>
-        <a class="info-address" href="{{ .Params.action }}">{{ .Params.info }}</a>
+        {{ if .Params.link }}
+            <a class="info-address" href="{{ .Params.link }}">{{ .Params.info }}</a>
+        {{ else }}
+            <span class="info-address">{{ .Params.info }}</span>
+        {{ end }}
     </div>
 </div>

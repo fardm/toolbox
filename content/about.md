@@ -42,9 +42,9 @@ layout: wide
         <br/><br/>
         <hr>
         <div>
-            {{< box title="ایمیل" info="info@hoseinfm.ir" action="#" link="/images/email.svg" >}}
-            {{< box title="محل سکونت" info="ایران، قم" action="#" link="/images/location.svg" >}}
-            {{< box title="نمونه‌کارها" info="⟶fardm.ir/portfolio" action="/portfolio" link="/images/link.svg" >}}
+            {{< box title="ایمیل" info="info@hoseinfm.ir" icon="/images/email.svg" >}}
+            {{< box title="محل سکونت" info="ایران، قم" icon="/images/location.svg" >}}
+            {{< box title="نمونه‌کارها" info="⟶fardm.ir/portfolio" link="/portfolio" icon="/images/link.svg" >}}
         <div>
         <hr>
         <br/>
@@ -65,7 +65,7 @@ layout: wide
             {{< hextra/hero-badge >}}<span>سئو</span>{{< /hextra/hero-badge >}}
         <br/><br/>
         <hr>
-            {{< box title="زبان انگلیسی" info="سطح A1" action="#" link="/images/English.svg" >}}
+            {{< box title="زبان انگلیسی" info="سطح A1" icon="/images/English.svg" >}}
     </aside>
     <main class="content">
         <div class="box">
