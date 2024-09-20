@@ -1,14 +1,15 @@
 ---
-title:
+title: استوری موشن اجاره ویلا
+weight: 6
 toc: false
 cascade:
   type: docs
 ---
 
 <div class="detail">
-{{< box title="کارفرما" info="" icon="/images/user.svg" >}}
-{{< box title="تاریخ طراحی" info="" icon="/images/calendar.svg" >}}
-{{< box title="دسته بندی" info="" icon="/images/folder.svg" >}}
+{{< box title="کارفرما" info="-" icon="/images/user.svg" >}}
+{{< box title="تاریخ طراحی" info="خرداد ۱۴۰۱" icon="/images/calendar.svg" >}}
+{{< box title="دسته بندی" info="استوری موشن" icon="/images/folder.svg" >}}
 </div>
 
 <br/>
@@ -18,4 +19,5 @@ cascade:
 <br/>
 
 <p style="text-align: justify;">
+این پروژه، یک استوری موشن تبلیغاتی در زمینه آگهی ملک جهت اطلاع رسانی اجاره کلبه چوبی واقع در استان گیلان بوده که به صورت گرافیکی طراحی و سپس موشن سازی شده. باتوجه به محدودیت زمانی استوری، سعی کردم تمام جزئیات لازم برای مخاطب را به صورت ساده و گویا به تصویر کشیده و از پرداخت به اطلاعات اضافی و غیرضروری خودداری کنم.
 </p>

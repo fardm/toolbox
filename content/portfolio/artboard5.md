@@ -1,21 +1,23 @@
 ---
-title:
+title: گزارش عملکرد موسسه تسنیم
+weight: 5
 toc: false
 cascade:
   type: docs
 ---
 
 <div class="detail">
-{{< box title="کارفرما" info="" icon="/images/user.svg" >}}
-{{< box title="تاریخ طراحی" info="" icon="/images/calendar.svg" >}}
-{{< box title="دسته بندی" info="" icon="/images/folder.svg" >}}
+{{< box title="کارفرما" info="موسسه تسنیم لنجان" icon="/images/user.svg" >}}
+{{< box title="تاریخ طراحی" info="مهر ۱۴۰۱" icon="/images/calendar.svg" >}}
+{{< box title="دسته بندی" info="گزارش عملکرد" icon="/images/folder.svg" >}}
 </div>
 
 <br/>
 
-![]()
+![](https://hoseinfm.ir/wp-content/uploads/2023/07/CT05-mockup1-1-scaled.jpg)
 
 <br/>
 
 <p style="text-align: justify;">
+در این پروژه به سفارش «موسسه قرآنی تسنیم لنجان»، گزارش طرح‌های اجرا شده توسط مجموعه را به صورت گرافیکی پردازش نموده و بصری سازی کردم. با توجه به محدودیت زمانی پروژه و درخواست کارفرما برای تسریع فرایند طراحی و تحویل گزارش، عمده تلاش من در این پروژه بصری سازی مفاهیم و مطالبِ فایل متنی گزارش در سریع ترین زمان ممکن بوده است. این گزارش در قطع A4 گردآوری شده و تعداد صفحات آن برابر با ۳۰ صفحه است.
 </p>

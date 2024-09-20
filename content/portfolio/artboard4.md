@@ -1,5 +1,6 @@
 ---
 title: پوستر دوره جنگ ترکیبی
+weight: 4
 toc: false
 cascade:
   type: docs

@@ -3,6 +3,7 @@
   --lightgray: #dfdfdf;
   --gray: #9e9e9e;
   --darkgray: #313131;
+  --dark: #242424;
   --blurple: #5865F2;
   --second: #30335a;
   --bg: #ebf0ff;
@@ -14,9 +15,21 @@ html[class~="dark"] {
   --lightgray: #4c4c4c;
   --gray: #7f7f7f;
   --darkgray: #cfcfcf;
+  --dark: #eeeeee;
   --blurple: #616ce2;
   --second: #464a83;
   --bg: #373a40;
+}
+
+/* نوبار */
+
+nav {
+  justify-content: center !important;
+  gap: 1rem !important;
+}
+
+nav > * {
+  margin: 0 !important;
 }
 
 
@@ -42,7 +55,7 @@ html[class~="dark"] {
 /* دکمه تغییر تم */
   .theme-toggle{
     background-color: var(--lightgray);
-    color: var(--darkgray);
+    color: var(--dark) !important;
   }
 
 /* جستجو */
@@ -427,4 +440,11 @@ html[class~="dark"] {
   margin-top: 20px;
   border: solid 1px #8080803d;
   border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .detail {
+    flex-direction: column;
+
+  }
 }

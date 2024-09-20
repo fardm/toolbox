@@ -40,34 +40,31 @@ markup:
 
 menu:
   main:
-    - name: صفحه اصلی
-      pageRef: /
-      weight: 1
-    - name: وبلاگ
-      pageRef: /blog
-      weight: 4
-    - name: نمونه‌کار‌ها
-      pageRef: /portfolio
-      weight: 3
     - name: درباره من
       pageRef: /about
+      weight: 1
+    - name: نمونه‌کار‌ها
+      pageRef: /portfolio
       weight: 2
+    - name: بلاگ
+      pageRef: /blog
+      weight: 3
     - name: جستجو
-      weight: 6
+      weight: 4
       params:
         type: search
 
 params:
   navbar:
     displayTitle: true
-    displayLogo: true
+    displayLogo: false
     logo:
       path: images/logo.svg
       dark: images/logo-dark.svg
       # width: 40
       # height: 20
       # link: /
-    width: normal
+    width: full
 
   page:
     # full (100%), wide (90rem), normal (1280px)

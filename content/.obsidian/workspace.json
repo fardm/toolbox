@@ -11,8 +11,12 @@
             "id": "4a390ec4ae595576",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "portfolio/_index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "portfolio/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "portfolio/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +124,16 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "portfolio/_index.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -140,6 +147,19 @@
   },
   "active": "4a390ec4ae595576",
   "lastOpenFiles": [
+    "portfolio/artboard10.md",
+    "portfolio/artboard9.md",
+    "portfolio/artboard8.md",
+    "portfolio/artboard7.md",
+    "portfolio/artboard6.md",
+    "portfolio/artboard5.md",
+    "portfolio/artboard4.md",
+    "portfolio/artboard3.md",
+    "portfolio/artboard2.md",
+    "portfolio/artboard1.md",
+    "portfolio/artboard.md",
+    "about.md",
+    "_index.md",
     "Attachments/email-fill.svg",
     "portfolio/index.md",
     "portfolio",
