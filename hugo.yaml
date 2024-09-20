@@ -52,10 +52,10 @@ menu:
     - name: درباره من
       pageRef: /about
       weight: 2
-    # - name: جستجو
-    #   weight: 6
-    #   params:
-    #     type: search
+    - name: جستجو
+      weight: 6
+      params:
+        type: search
 
 params:
   navbar:

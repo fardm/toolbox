@@ -5,6 +5,7 @@
   --darkgray: #313131;
   --blurple: #5865F2;
   --second: #30335a;
+  --bg: #ebf0ff;
 
 }
 
@@ -15,6 +16,7 @@ html[class~="dark"] {
   --darkgray: #cfcfcf;
   --blurple: #616ce2;
   --second: #464a83;
+  --bg: #373a40;
 }
 
 
@@ -42,6 +44,11 @@ html[class~="dark"] {
     background-color: var(--lightgray);
     color: var(--darkgray);
   }
+
+/* جستجو */
+.search-wrapper {
+  width: 7rem;
+}
 
 /*سوشال مدیا */
   .group1 {
@@ -123,12 +130,13 @@ html[class~="dark"] {
   .icon-box {
     display: flex;
     align-items: center;
-    margin: 20px 0px;
   }
 
   .icon img{
     width: 3rem;
     height: 3rem;
+    background-color: var(--bg);
+    border-radius: 15px;
   }
 
   .info {
@@ -406,3 +414,17 @@ html[class~="dark"] {
   }
 }
 
+
+
+/* جزئیات برای صفحه نمونه کار */
+
+.detail{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #dfdfdf20;
+  padding: 0 20px;
+  margin-top: 20px;
+  border: solid 1px #8080803d;
+  border-radius: 10px;
+}

@@ -23,7 +23,7 @@ layout: wide
 
     .hx-rounded-full {
         border-radius: 15px;
-        margin: 5px 0;
+        margin: 5px 3px;
     }
 </style>
 
@@ -89,7 +89,7 @@ layout: wide
                     <div class="timeline-content">
                     <p class="timeline-date">مهر ۱۴۰۰ تا آذر ۱۴۰۱</p>
                     <h4>تشکل فرهنگی عروج</h4>
-                    <p style="font-size: 1em !important;">طراحی پوستر و ملزومات گرافیکی دوره‌های آموزشی، طراحی و صفحه‌آرایی گزارش عملکرد سالیانه، گرافیک شبکه‌های اجتماعی، ملزومات پرسونال برندینگ مجموعه، صدور گواهینامه</p>
+                    <p style="font-size: 1em !important;">طراحی پوستر و ملزومات گرافیکی دوره‌های آموزشی، طراحی و صفحه‌آرایی گزارش عملکرد سالیانه، گرافیک شبکه‌های اجتماعی، صدور گواهینامه</p>
                     <a href="https://orooj.org/">{{< icon "external-link" >}}</a>
                     </div>
                 </div>
@@ -114,7 +114,7 @@ layout: wide
                     <img src="/images/user1.png" class="avatar">
                     <h4>رضا یاوری</h4>
                     <p class="job">موسسه تسنیم لنجان</p>
-                    <div class="comment">کاربردی و حرفه‌ای</div>
+                    <div class="comment">صبور ، دقیق و منظم و حرفه‌ای کار را اجرا می کنند.</div>
                 </div>
                 {{< testimonial image="/images/user2.png" name="میلاد هدایتی" job="مدرس عمران" comment="بسیار عالی بود کارشون و با توجه به ضروری بودن کار، خیلی سریع و دقیق کار رو تحویلم دادن." >}}
                 {{< testimonial image="/images/user3.png" name="زینب کریمی" job="دبیر شیمی" comment="واقعا عالی و بسیار دقیق، با حوصله و با کیفیت بودند در طراحی  و پاسخگویی." >}}
