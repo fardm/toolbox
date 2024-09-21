@@ -460,6 +460,7 @@ nav > * {
 
 .thumbnail-gallery {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
 }
@@ -471,4 +472,7 @@ nav > * {
 .thumbnail img {
   width: 100px;
   cursor: pointer;
+  aspect-ratio: 5/4;
+  object-fit: cover;
+
 }

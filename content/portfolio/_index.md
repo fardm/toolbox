@@ -3,27 +3,36 @@ title: نمونه‌کارها
 toc: false
 layout: wide
 ---
+
+
+
 <div style="max-width: 70rem; margin: auto;">
 {{< cards >}}
-  {{< card link="artboard1" title="پوستر دوره ایلوستریتور" image="/images/Artboard01.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+  {{< card link="poster" title="پوستر" icon="photograph" >}}
+  {{< card link="catalogue" title="کاتالوگ" icon="book-open" >}}
+  {{< card link="story" title="پست و استوری" icon="instagram" >}}
+{{< /cards >}}
 
-  {{< card link="artboard2" title="گزارش عملکرد عروج" image="/images/Artboard02.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+{{< cards >}}
+  {{< card link="poster/artboard1" title="پوستر دوره ایلوستریتور" image="/images/portfolio/vitrin-01.webp" imageStyle="object-fit:cover;" >}}
 
-  {{< card link="artboard3" title="استوری موشن دوره آموزشی" image="/images/Artboard03.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+  {{< card link="catalogue/artboard2" title="گزارش عملکرد عروج" image="/images/portfolio/vitrin-02.webp" imageStyle="object-fit:cover;" >}}
 
-  {{< card link="artboard4" title="پوستر دوره جنگ ترکیبی" image="/images/Artboard04.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+  {{< card link="story/artboard3" title="استوری دوره آموزشی" image="/images/portfolio/vitrin-03.webp" imageStyle="object-fit:cover;" >}}
 
-  {{< card link="artboard5" title="گزارش عملکرد موسسه تسنیم" image="/images/Artboard05.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+  {{< card link="poster/artboard4" title="پوستر دوره سواد رسانه" image="/images/portfolio/vitrin-04.webp" imageStyle="object-fit:cover;" >}}
 
-  {{< card link="artboard6" title="استوری موشن اجاره ویلا" image="/images/Artboard06.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+  {{< card link="catalogue/artboard5" title="گزارش عملکرد موسسه تسنیم" image="/images/portfolio/vitrin-05.webp" imageStyle="object-fit:cover;" >}}
 
-  {{< card link="artboard7" title="پوستر اتاق فرار" image="/images/Artboard07.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+  {{< card link="story/artboard6" title="استوری اجاره کلبه چوبی" image="/images/portfolio/vitrin-06.webp" imageStyle="object-fit:cover;" >}}
 
-  {{< card link="artboard8" title="کاتالوگ طرح‌نامه" image="/images/Artboard08.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+  {{< card link="poster/artboard7" title="پوستر اتاق فرار" image="/images/portfolio/vitrin-07.webp" imageStyle="object-fit:cover;" >}}
 
-  {{< card link="artboard9" title="استوری موشن دوره ایتا مارکتینگ" image="/images/Artboard09.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+  {{< card link="catalogue/artboard8" title="کاتالوگ طرح‌نامه" image="/images/portfolio/vitrin-08.webp" imageStyle="object-fit:cover;" >}}
 
-  {{< card link="artboard10" title="پوستر جشنواره رأی برتر" image="/images/Artboard10.jpg" imageStyle="object-fit:cover; aspect-ratio:12/9;" >}}
+  {{< card link="story/artboard9" title="استوری موشن دوره ایتا مارکتینگ" image="/images/portfolio/vitrin-09.webp" imageStyle="object-fit:cover;" >}}
+
+  {{< card link="poster/artboard10" title="پوستر جشنواره رأی برتر" image="/images/portfolio/vitrin-10.webp" imageStyle="object-fit:cover;" >}}
   
 {{< /cards >}}
 </div>
