@@ -16,7 +16,7 @@ html[class~="dark"] {
   --gray: #7f7f7f;
   --darkgray: #cfcfcf;
   --dark: #eeeeee;
-  --blurple: #616ce2;
+  --blurple: #929bff;
   --second: #464a83;
   --bg: #373a40;
 }
@@ -236,7 +236,7 @@ nav > * {
     right: 25px;
     width: 2px;
     height: 100%;
-    background-color: var(--lightgray);
+    background-color: var(--bg);
   }
   
   .timeline-item {
@@ -247,9 +247,9 @@ nav > * {
   }
   
   .timeline-icon {
-    background-color: var(--lightgray);
-    color: var(--darkgray);
-    font-size: 0.8em;
+    background-color: var(--bg);
+    color: var(--blurple);
+    font-size: 0.9em;
     font-weight: bold;
     border-radius: 16px;
     padding: 10px;
@@ -262,7 +262,7 @@ nav > * {
   
   .timeline-content {
     background-color: #aeb1cf14;
-    border-left: solid 3px var(--lightgray);
+    border-left: solid 3px #929bff7d;
     /* border: solid 1px var(--lightgray); */
     padding: 15px;
     border-radius: 8px;
@@ -475,4 +475,15 @@ nav > * {
   aspect-ratio: 5/4;
   object-fit: cover;
 
+}
+
+
+/* آیکون تایتل */
+
+.icon-title{
+  display: inline;
+  width: 1.6em;
+  background-color: var(--bg);
+  border-radius: 12px;
+  padding: 8px;
 }

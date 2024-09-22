@@ -40,19 +40,19 @@ layout: wide
             <a href="https://eitaa.com/fardmim" title="ایتا" class="footer-link"><img src="/images/eitaa.svg" class="footer-svg"></a>
         </div>
         <br/><br/>
-        <hr>
+        <!-- <hr>
         <div>
             {{< box title="ایمیل" info="info@hoseinfm.ir" icon="/images/email.svg" >}}
             {{< box title="محل سکونت" info="ایران، قم" icon="/images/location.svg" >}}
             {{< box title="نمونه‌کارها" info="⟶hoseinfm.ir/portfolio" link="/portfolio" icon="/images/link.svg" >}}
-        <div>
+        <div> -->
         <hr>
         <br/>
         <p align="center">نرم‌افزارها<p>
         <div>
-            {{< skills title="Photoshop" value="80%" >}}
-            {{< skills title="Illustrator" value="65%" >}}
-            {{< skills title="Premiere" value="50%" >}}
+            {{< skills title="Photoshop" value="90%" >}}
+            {{< skills title="Illustrator" value="80%" >}}
+            {{< skills title="Premiere" value="65%" >}}
         </div>
         <br/>
         <hr>
@@ -69,11 +69,11 @@ layout: wide
     </aside>
     <main class="content">
         <div class="box">
-            <h3 style="align-items: baseline;"> 👤 درباره من</h3>
+            <h3 style="align-items: baseline;"><img src="/images/member.svg" class="icon-title"> درباره من</h3>
             <p>من حسین فردمحمدی هستم و در حوزه طراحی گرافیک فعالیت می‌کنم. تمرکز من بر ارائه طرح‌هایی است که مفاهیم پیچیده را به تصاویر ساده و قابل درک تبدیل می‌کنند تا پیام‌ها به بهترین شکل به مخاطب منتقل شوند. من به یادگیری مداوم اعتقاد دارم و همیشه سعی می‌کنم با استفاده از جدیدترین ابزارها و تکنیک‌های طراحی کیفیت کار خود را ارتقا دهم. همچنین از انتقال دانش و به‌اشتراک‌گذاری تجربیات خود با دیگران لذت می‌برم و همواره به دنبال فرصت‌هایی برای رشد و توسعه حرفه‌ی خود هستم.</p>
         </div>
         <div class="box">
-            <h3 style="align-items: baseline;"> 💼 تجربیات</h3>
+            <h3 style="align-items: baseline;"><img src="/images/briefcase.svg" class="icon-title"> تجربیات</h3>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-icon">۱۴۰۱</div>
@@ -96,7 +96,7 @@ layout: wide
             </div>
         </div>
         <div class="box">
-            <h3 style="align-items: baseline;">🎓 تحصیلات</h3>
+            <h3 style="align-items: baseline;"><img src="/images/cap.svg" class="icon-title"> تحصیلات</h3>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-icon">۱۴۰۲</div>
@@ -108,7 +108,7 @@ layout: wide
             </div>
         </div>
         <div class="box">
-            <h3 style="align-items: baseline;">💬 دیدگاه کارفرمایان</h3>
+            <h3 style="align-items: baseline;"><img src="/images/quote.svg" class="icon-title"> دیدگاه کارفرمایان</h3>
             <div class="testimonial-slider">
                 <div class="testimonial active">
                     <img src="/images/user1.png" class="avatar">

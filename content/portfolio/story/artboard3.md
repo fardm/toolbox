@@ -15,7 +15,7 @@ cascade:
 <!-- جزئیات -->
 <div class="detail">
 {{< box title="کارفرما" info="میلاد هدایتی" link="https://www.instagram.com/milad.hedayati" icon="/images/user.svg" >}}
-{{< box title="تاریخ طراحی" info="تیر 1401" icon="/images/calendar.svg" >}}
+{{< box title="تاریخ طراحی" info="تیر ۱۴۰۱" icon="/images/calendar.svg" >}}
 {{< box title="دسته بندی" info="استوری موشن" icon="/images/folder.svg" >}}
 </div>
 

@@ -13,7 +13,7 @@ cascade:
 <!-- جزئیات -->
 <div class="detail">
 {{< box title="کارفرما" info="تشکل فرهنگی عروج" icon="/images/user.svg" >}}
-{{< box title="تاریخ طراحی" info="آبان 1400" icon="/images/calendar.svg" >}}
+{{< box title="تاریخ طراحی" info="آبان ۱۴۰۰" icon="/images/calendar.svg" >}}
 {{< box title="دسته بندی" info="پوستر" icon="/images/folder.svg" >}}
 </div>
 
