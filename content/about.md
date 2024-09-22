@@ -44,7 +44,7 @@ layout: wide
         <div>
             {{< box title="ایمیل" info="info@hoseinfm.ir" icon="/images/email.svg" >}}
             {{< box title="محل سکونت" info="ایران، قم" icon="/images/location.svg" >}}
-            {{< box title="نمونه‌کارها" info="⟶fardm.ir/portfolio" link="/portfolio" icon="/images/link.svg" >}}
+            {{< box title="نمونه‌کارها" info="⟶hoseinfm.ir/portfolio" link="/portfolio" icon="/images/link.svg" >}}
         <div>
         <hr>
         <br/>
