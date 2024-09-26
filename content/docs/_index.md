@@ -5,8 +5,14 @@ draft: true
 
 ## دستورات
 
+اجرای لوکال
 ```
 hugo server --disableFastRender --baseURL http://localhost:1313
+```
+
+حذف فایل های بلااستفاده پوشه پابلیک
+```
+hugo --cleanDestinationDir
 ```
 
 ## دکمه تغییر تم

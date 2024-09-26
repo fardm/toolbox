@@ -95,7 +95,7 @@ layout: wide
                 </div>
             </div>
         </div>
-        <div class="box">
+        <!-- <div class="box">
             <h3 style="align-items: baseline;"><img src="/images/cap.svg" class="icon-title"> تحصیلات</h3>
             <div class="timeline">
                 <div class="timeline-item">
@@ -106,7 +106,7 @@ layout: wide
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="box">
             <h3 style="align-items: baseline;"><img src="/images/quote.svg" class="icon-title"> دیدگاه کارفرمایان</h3>
             <div class="testimonial-slider">
