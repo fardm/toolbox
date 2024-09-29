@@ -5,7 +5,7 @@ layout: wide
 
 <br/><br/>
 
-<img src="images/avatar.png" alt="profile" loading="lazy" width="200px">
+<img src="images/avatar.webp" alt="profile" loading="lazy" width="250px">
 
 <h1 align="center">حسین فردمحمدی</h1>
 

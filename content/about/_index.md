@@ -30,7 +30,7 @@ layout: wide
 
 <div class="main">
     <aside class="sidebar">
-        <img src="/images/avatar.png" alt="profile" loading="lazy" width="200px">
+        <img src="/images/avatar.webp" alt="profile" loading="lazy" width="200px">
         <h3 align="center">حسین فردمحمدی</h3>
         <p align="center" style="color: #a5a5a5; font-size: 1.3em">طراح گرافیک</p>
         <br/>
