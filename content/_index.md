@@ -14,9 +14,9 @@ layout: wide
 <br/>
 
 <div align="center" class="group1">
-  <a href="http://instagram.com/hoseinfm.ir" title="اینستاگرام" class="footer-link"><img src="images/instagram.svg" class="footer-svg"></a>
-  <a href="https://t.me/fardmim" title="تلگرام" class="footer-link"><img src="images/telegram.svg" class="footer-svg"></a>
-  <a href="https://eitaa.com/fardmim" title="ایتا" class="footer-link"><img src="images/eitaa.svg" class="footer-svg"></a>
+  <a href="http://instagram.com/hoseinfm.ir" title="اینستاگرام" class="footer-link" target="_blank"><img src="images/instagram.svg" class="footer-svg"></a>
+  <a href="https://t.me/fardmim" title="تلگرام" class="footer-link" target="_blank"><img src="images/telegram.svg" class="footer-svg"></a>
+  <a href="https://eitaa.com/fardmim" title="ایتا" class="footer-link" target="_blank"><img src="images/eitaa.svg" class="footer-svg"></a>
 </div>
 
 <br/><br/>
