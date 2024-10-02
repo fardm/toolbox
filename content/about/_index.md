@@ -30,7 +30,7 @@ layout: wide
 
 <div class="main">
     <aside class="sidebar">
-        <img src="/images/avatar.webp" alt="profile" loading="lazy" width="200px">
+        <img src="/images/avatar.webp" alt="profile" loading="lazy" width="175px">
         <h3 align="center">حسین فردمحمدی</h3>
         <p align="center" style="color: #a5a5a5; font-size: 1.3em">طراح گرافیک</p>
         <br/>
@@ -42,9 +42,10 @@ layout: wide
         <br/><br/>
         <!-- <hr>
         <div>
-            {{< box title="ایمیل" info="info@hoseinfm.ir" icon="/images/email.svg" >}}
-            {{< box title="محل سکونت" info="ایران، قم" icon="/images/location.svg" >}}
-            {{< box title="نمونه‌کارها" info="⟶hoseinfm.ir/portfolio" link="/portfolio" icon="/images/link.svg" >}}
+            {{< box title="شماره تماس" info="" icon="/images/phone.svg" >}}
+            {{< box title="ایمیل" info="" icon="/images/email.svg" >}}
+            {{< box title="محل سکونت" info="ایران" icon="/images/location.svg" >}}
+            {{< box title="نمونه‌کارها" info="⟶hoseinfm.ir/portfolio" link="https://hoseinfm.ir/portfolio/" icon="/images/link.svg" >}}
         <div> -->
         <hr>
         <br/>
@@ -102,7 +103,7 @@ layout: wide
                     <div class="timeline-icon">۱۴۰۲</div>
                     <div style="margin-right: 60px; padding: 15px;">
                     <p class="timeline-date">کارشناسی</p>
-                    <h4>فقه و حقوق اسلامی</h4>
+                    <h4>فقه و اصول اسلامی</h4>
                     </div>
                 </div>
             </div>
