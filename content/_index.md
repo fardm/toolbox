@@ -6,7 +6,7 @@ description: حسین فردمحمدی هستم. در مسیر طراحی و د�
 
 <br/><br/>
 
-<img src="images/avatar.webp" alt="profile" loading="lazy" width="200px">
+<img src="images/avatar.webp" alt="profile" loading="lazy" width="250px">
 
 <h2 align="center">حسین فردمحمدی</h2>
 
