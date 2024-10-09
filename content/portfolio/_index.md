@@ -2,6 +2,7 @@
 title: نمونه‌کارها
 toc: false
 layout: wide
+description: طراحی پوستر، کاتالوگ، گزارش عملکرد، تمپلیت اینستاگرام
 ---
 
 

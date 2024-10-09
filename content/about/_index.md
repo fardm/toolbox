@@ -2,6 +2,7 @@
 title: درباره من
 toc: false
 layout: wide
+description: من حسین فردمحمدی هستم و در حوزه طراحی گرافیک فعالیت می‌کنم. تمرکز من بر ارائه طرح‌هایی است که مفاهیم پیچیده را به تصاویر ساده و قابل درک تبدیل می‌کنند تا پیام‌ها به بهترین شکل به مخاطب منتقل شوند.
 ---
 
 <style>
@@ -30,7 +31,7 @@ layout: wide
 
 <div class="main">
     <aside class="sidebar">
-        <img src="/images/avatar.webp" alt="profile" loading="lazy" width="175px">
+        <img src="/images/profile.webp" alt="profile" loading="lazy" width="175px">
         <h3 align="center">حسین فردمحمدی</h3>
         <p align="center" style="color: #a5a5a5; font-size: 1.3em">طراح گرافیک</p>
         <br/>
