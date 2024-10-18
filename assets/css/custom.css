@@ -4,7 +4,7 @@
   --gray: #9e9e9e;
   --darkgray: #313131;
   --dark: #242424;
-  --blurple: #5865F2;
+  --blurple: #6d78ef;
   --second: #30335a;
   --bg: #ebf0ff;
 
@@ -310,7 +310,7 @@ nav > * {
   }
 
   .progress {
-    background-color: var(--second);
+    background-color: var(--blurple);
     height: 100%;
     border-radius: 10px;
   }

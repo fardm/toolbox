@@ -31,7 +31,7 @@ description: من حسین فردمحمدی هستم و در حوزه طراحی
 
 <div class="main">
     <aside class="sidebar">
-        <img src="/images/profile.webp" alt="profile" loading="lazy" width="175px">
+        <img src="/images/profile.webp" alt="profile" loading="lazy" width="175px" height="175px">
         <h3 align="center">حسین فردمحمدی</h3>
         <p align="center" style="color: #a5a5a5; font-size: 1.3em">طراح گرافیک</p>
         <br/>
@@ -77,6 +77,15 @@ description: من حسین فردمحمدی هستم و در حوزه طراحی
         <div class="box">
             <h3 style="align-items: baseline;"><img src="/images/briefcase.svg" class="icon-title"> تجربیات</h3>
             <div class="timeline">
+                <!-- <div class="timeline-item">
+                    <div class="timeline-icon">۱۴۰۳</div>
+                    <div class="timeline-content">
+                    <p class="timeline-date">مهر ۱۴۰۳ تاکنون</p>
+                    <h4>انتشارات نخل سبز</h4>
+                    <p style="font-size: 1em !important;">طراحی و صفحه آرایی، گرافیک شبکه‌های اجتماعی</p>
+                    <a href="https://greenpalm.net/" target="_blank" rel="nofollow">{{< icon "external-link" >}}</a>
+                    </div>
+                </div> -->
                 <div class="timeline-item">
                     <div class="timeline-icon">۱۴۰۱</div>
                     <div class="timeline-content">
@@ -134,9 +143,9 @@ description: من حسین فردمحمدی هستم و در حوزه طراحی
                 <a href="https://orooj.org/" target="_blank" rel="nofollow" title="تشکل فرهنگی عروج" class="logo-item"><img src="/images/logo1.png" alt="Logo 1"></a>
                 <a href="https://mfvm.ir/" target="_blank" rel="nofollow" title="موسسه ولاء منتظر" class="logo-item"><img src="/images/logo2.png" alt="Logo 2"></a>
                 <a href="https://steelon.org/" target="_blank" rel="nofollow" title="بازرگانی استیلون" class="logo-item"><img src="/images/logo3.png" alt="Logo 3"></a>
-                <a href="https://www.instagram.com/anashid__mezon/" target="_blank" rel="nofollow" title="مزون آناشید" class="logo-item"><img src="/images/logo4.png" alt="Logo 4"></a>
-                <a href="https://imj.eadl.ir/" target="_blank" rel="nofollow" title="سازمان قضایی نیروهای مسلح" class="logo-item"><img src="/images/logo5.png" alt="Logo 5"></a>
+                <a href="https://greenpalm.net/" target="_blank" rel="nofollow" title="انتشارات نخل‌سبز" class="logo-item"><img src="/images/logo7.png" alt="Logo 4"></a>
                 <a href="https://www.instagram.com/tasnimlenjan/" target="_blank" rel="nofollow" title="موسسه تسنیم" class="logo-item"><img src="/images/logo6.png" alt="Logo 6"></a>
+                <a href="https://imj.eadl.ir/" target="_blank" rel="nofollow" title="سازمان قضایی نیروهای مسلح" class="logo-item"><img src="/images/logo5.png" alt="Logo 5"></a>
             </div>
         </div>
     </main>
