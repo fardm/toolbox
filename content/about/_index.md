@@ -31,7 +31,7 @@ description: من حسین فردمحمدی هستم و در حوزه طراحی
 
 <div class="main">
     <aside class="sidebar">
-        <img src="/images/profile.webp" alt="profile" loading="lazy" width="175px" height="175px">
+        <img src="/images/profile.webp" alt="profile" width="175px" height="175px">
         <h3 align="center">حسین فردمحمدی</h3>
         <p align="center" style="color: #a5a5a5; font-size: 1.3em">طراح گرافیک</p>
         <br/>
