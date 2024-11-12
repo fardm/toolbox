@@ -497,3 +497,138 @@ nav > * {
   border-radius: 12px;
   padding: 8px;
 }
+
+
+
+/* دیتابیس */
+
+.gallery-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+@media (max-width: 480px) {
+  .gallery-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.gallery-item {
+  overflow: hidden;
+  padding: 10px;
+  background-color: #b5b5b518;
+  border: 1px solid #b5b5b526;
+  border-radius: 8px;
+}
+
+.gallery-item img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.gallery-item h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: var(--blurple);
+}
+
+
+.gallery-item p {
+  margin: 5px 0;
+  font-size: 0.9em;
+}
+
+
+.label {
+  background-color: var(--lightgray);
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-weight: 250;
+}
+
+
+
+.more {
+  background-color: var(--blurple);
+  color: white !important;
+  padding: 1px 8px;
+  border-radius: 4px;
+  text-decoration-line: none;
+  font-weight: 250;
+  line-height: 3;
+  } 
+
+  .more:hover {
+    opacity: 0.7;
+  }
+
+
+
+
+
+/* استایل بخش دکمه‌های فیلتر */
+#filterButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+  justify-content: center;
+}
+
+#filterButtons button {
+  background-color: var(--lightgray);
+  color: var(--darkgray);
+  border: 1px solid #b5b5b526;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#filterButtons button:hover {
+  background-color: var(--gray);
+  color: var(--dark);
+}
+
+#filterButtons button.active {
+  background-color: var(--blurple);
+  color: #fff;
+  border-color: #333;
+}
+
+#filterButtons button:focus {
+  outline: none;
+}
+
+/* استایل منوی بازشونده مرتب‌سازی */
+#sortOption, #sortOrder {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0 4px;
+}
+
+
+
+/* تمپلیت تکی آیتم های کالکشن */
+
+.item-header {
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 25px;
+  border: solid 1px #d1d1d1;
+  direction: ltr;
+}
+
+.item-header P {
+  font-weight: bold;
+}
+
+.item-header P * {
+  font-weight: 350;
+}
