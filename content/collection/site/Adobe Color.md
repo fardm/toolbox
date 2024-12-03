@@ -1,5 +1,5 @@
 ---
-title: Adobe Firefly
+title: Adobe Color
 category:
   - color
 License: Free
