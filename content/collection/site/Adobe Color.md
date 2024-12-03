@@ -4,6 +4,6 @@ category:
   - color
 License: Free
 rating: ⭐⭐⭐
-link: https://firefly.adobe.com
+link: https://color.adobe.com/
 layout: item
 ---
