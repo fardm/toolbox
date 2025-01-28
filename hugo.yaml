@@ -1,5 +1,5 @@
 # Configuration
-baseURL: "https://fardm.github.io/toolbox"
+baseURL: "https://hoseinfm.ir/"
 title: Design ToolBox
 
 
@@ -40,15 +40,15 @@ markup:
 
 menu:
   main:
-    - name: درباره من
-      pageRef: /about
-      weight: 1
-    - name: نمونه‌کار‌ها
-      pageRef: /portfolio
-      weight: 2
-    - name: بلاگ
-      pageRef: /blog
-      weight: 3
+    # - name: درباره من
+    #   pageRef: /about
+    #   weight: 1
+    # - name: نمونه‌کار‌ها
+    #   pageRef: /portfolio
+    #   weight: 2
+    # - name: بلاگ
+    #   pageRef: /blog
+    #   weight: 3
     - name: جستجو
       weight: 4
       params:
