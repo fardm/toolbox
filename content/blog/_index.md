@@ -1,6 +1,7 @@
 ---
 title: "بلاگ"
-description: مقالات مفید در زمینه طراحی و دیزاین
+description: مقالات مفید
+draft: true
 ---
 
 <div style="text-align: center; margin-top: 1em;">

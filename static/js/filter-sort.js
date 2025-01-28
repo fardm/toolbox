@@ -1,10 +1,20 @@
 // فیلتر کردن با دکمه‌های دسته‌بندی
 document.getElementById('filterButtons').addEventListener('click', function (event) {
-    const selectedCategory = event.target.getAttribute('data-category');
-    if (!selectedCategory) return; // اطمینان از کلیک بر روی دکمه‌های دسته‌بندی
+    const selectedButton = event.target.closest('button');
+    if (!selectedButton) return; // اطمینان از کلیک بر روی دکمه‌های دسته‌بندی
 
+    const selectedCategory = selectedButton.getAttribute('data-category');
     const items = document.querySelectorAll('.gallery-item');
 
+    // حذف کلاس active از همه دکمه‌ها
+    document.querySelectorAll('#filterButtons button').forEach(button => {
+        button.classList.remove('active');
+    });
+
+    // اضافه کردن کلاس active به دکمه‌ای که کلیک شده است
+    selectedButton.classList.add('active');
+
+    // فیلتر کردن آیتم‌ها
     items.forEach(item => {
         const itemCategories = item.getAttribute('data-category').split(" ");
         

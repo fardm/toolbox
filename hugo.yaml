@@ -29,6 +29,9 @@ languages:
 module:
   imports:
   - path: github.com/imfing/hextra
+  mounts:
+  - source: "content/site/index.md"
+    target: "content/index.md"
 
 markup:
   goldmark:
@@ -40,15 +43,15 @@ markup:
 
 menu:
   main:
-    # - name: درباره من
-    #   pageRef: /about
-    #   weight: 1
-    # - name: نمونه‌کار‌ها
-    #   pageRef: /portfolio
-    #   weight: 2
-    # - name: بلاگ
-    #   pageRef: /blog
-    #   weight: 3
+    - name: سایت
+      pageRef: /site
+      weight: 1
+    - name: هوش‌مصنوعی
+      pageRef: /ai
+      weight: 2
+    - name: فونت
+      pageRef: /font
+      weight: 3
     - name: جستجو
       weight: 4
       params:

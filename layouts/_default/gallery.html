@@ -9,19 +9,17 @@
       <br/><br/>
 
 
-
 <!-- بخش فیلتر به صورت دکمه -->
 <div id="filterButtons">
-    <button data-category="all">All</button>
-    <button data-category="photo">Photo</button>
-    <button data-category="video">Video</button>
-    <button data-category="vector">Vector</button>
-    <button data-category="icon">Icon</button>
-    <button data-category="illustration">Illustration</button>
-    <button data-category="color">Color</button>
-    <button data-category="artwork">Artwork</button>
-    <button data-category="ai">AI</button>
-    <button data-category="other">Other</button>
+    <button data-category="all"><i class="fi fi-rr-border-all"></i> All</button>
+    <button data-category="photo"><i class="fi fi-rr-picture"></i> Photo</button>
+    <button data-category="video"><i class="fi fi-rr-video-camera-alt"></i> Video</button>
+    <button data-category="vector"><i class="fi fi-rr-vector-alt"></i> Vector</button>
+    <button data-category="icon"><i class="fi fi-rr-resources"></i> Icon</button>
+    <button data-category="illustration"><i class="fi fi-rr-vector"></i> Illustration</button>
+    <button data-category="color"><i class="fi fi-rr-palette"></i> Color</button>
+    <button data-category="artwork"><i class="fi fi-rr-paintbrush-pencil"></i> Artwork</button>
+    <button data-category="other"><i class="fi fi-rr-menu-burger"></i> uncategorized</button>
 </div>
 
 <!-- منوی بازشونده مرتب‌سازی -->
@@ -54,7 +52,7 @@
 </div>
 
     <!-- اسکریپت فیلتر و سورت -->
-    <script src="/js/filter-sort.js"></script>
+    <script src="{{ .Site.BaseURL }}js/filter-sort.js"></script>
 
 
 

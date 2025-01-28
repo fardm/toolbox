@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
 
 
 :root {
@@ -577,30 +579,34 @@ nav > * {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 16px;
+  margin-bottom: 2rem;
   justify-content: center;
 }
 
 #filterButtons button {
-  background-color: var(--lightgray);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c7c7c724;
   color: var(--darkgray);
-  border: 1px solid #b5b5b526;
+  border: 1px solid #b5b5b569;
   border-radius: 4px;
-  padding: 8px 12px;
+  padding: 10px 15px;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }
 
 #filterButtons button:hover {
-  background-color: var(--gray);
-  color: var(--dark);
+  background-color: #c7c7c724;
+  color: var(--blurple);
 }
 
 #filterButtons button.active {
-  background-color: var(--blurple);
-  color: #fff;
-  border-color: #333;
+  background-color: #c7c7c724;
+  color: var(--blurple);
+  border-color: var(--blurple);
 }
 
 #filterButtons button:focus {
