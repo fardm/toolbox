@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
+
+
 :root {
   --light: #ffffff;
   --lightgray: #dfdfdf;
@@ -36,7 +41,7 @@ nav > * {
 /* تایپوگرافی */
 @font-face {
   font-family: 'Vazirmatn';
-  src: url('/fonts/Vazirmatn.woff2') format('woff2');
+  /* src: url('/fonts/Vazirmatn.woff2') format('woff2'); */
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
