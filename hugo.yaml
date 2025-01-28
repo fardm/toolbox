@@ -1,6 +1,6 @@
 # Configuration
-baseURL: "https://hoseinfm.ir/"
-title: حسین فردمحمدی
+baseURL: "https://fardm.github.io/toolbox"
+title: Design ToolBox
 
 
 enableRobotsTXT: true
