@@ -5,6 +5,6 @@ category:
   - illustration
   - icon
 License: Freemium
-link: https://www.awwwards.com/
+link: https://ui8.net/
 layout: item
 ---
