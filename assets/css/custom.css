@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
-@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
 
 
 :root {
@@ -536,8 +535,9 @@ nav > * {
 
 .gallery-item h2 {
   font-size: 1.2em;
+  font-weight: 500;
   margin: 10px 0;
-  color: var(--blurple);
+  color: var(--dark);
 }
 
 
@@ -547,28 +547,49 @@ nav > * {
 }
 
 
+
 .label {
-  background-color: var(--lightgray);
-    border-radius: 4px;
-    padding: 2px 4px;
-    font-weight: 250;
+  color: var(--darkgray);
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-weight: 250;
 }
 
 
 
 .more {
-  background-color: var(--blurple);
-  color: white !important;
+  background-color: transparent;
+  color: var(--darkgray) !important;
   padding: 1px 8px;
+  border: solid 1px var(--darkgray);
   border-radius: 4px;
   text-decoration-line: none;
-  font-weight: 250;
+  font-weight: 350;
   line-height: 3;
   } 
 
   .more:hover {
-    opacity: 0.7;
+    background-color: var(--lightgray);
   }
+
+  .visit {
+    background-color: var(--blurple);
+    color: white !important;
+    padding: 1px 8px;
+    border: solid 1px var(--blurple);
+    border-radius: 4px;
+    text-decoration-line: none;
+    font-weight: 350;
+    line-height: 3;
+    opacity: 0.9;
+    } 
+  
+    .visit:hover {
+      opacity: 1;
+    }
+  
+
+
 
 
 

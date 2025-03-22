@@ -18,6 +18,7 @@
     <button data-category="icon"><i class="fi fi-rr-resources"></i> Icon</button>
     <button data-category="illustration"><i class="fi fi-rr-vector"></i> Illustration</button>
     <button data-category="color"><i class="fi fi-rr-palette"></i> Color</button>
+    <button data-category="mockup"><i class="fi fi-rr-template"></i> Mockup</button>
     <button data-category="artwork"><i class="fi fi-rr-paintbrush-pencil"></i> Artwork</button>
     <button data-category="other"><i class="fi fi-rr-menu-burger"></i> uncategorized</button>
 </div>
@@ -45,8 +46,10 @@
     <div class="gallery-item" data-category="{{ if .Params.category }}{{ delimit .Params.category " " }}{{ end }}" data-title="{{ .Params.title }}" data-license="{{ .Params.license }}" data-rating="{{ .Params.rating }}">
             <a href="{{ .Params.link }}" target="_blank"><img src="https://www.google.com/s2/favicons?sz=64&domain={{ .Params.link }}"></a>
             <a href="{{ .Params.link }}" target="_blank"><h2>{{ .Params.title }}</h2></a>
-            <p>License: <span class="label">{{ .Params.license }}</span></p>
-            <a href="{{ .Permalink }}" class="more">more →</a>
+            <!-- <p>License: <span class="label">{{ .Params.license }}</span></p> -->
+            <a href="{{ .Params.link }}" target="_blank" class="visit">visit <i class="fi fi-rr-up-right-from-square" style="vertical-align: sub;"></i></a>
+            <a href="{{ .Permalink }}" class="more">more</a>
+
         </div>
     {{ end }}
 </div>

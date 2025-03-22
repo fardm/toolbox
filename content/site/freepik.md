@@ -5,6 +5,7 @@ category:
   - photo
   - video
   - vector
+  - mockup
 License: Freemium
 group: Generators Images
 link: https://freepik.com/
