@@ -16,3 +16,4 @@ layout: item
 استایل ها:
 
 https://supagruen.github.io/StableDiffusion-CheatSheet/
+

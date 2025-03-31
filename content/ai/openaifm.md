@@ -1,10 +1,9 @@
 ---
-title: Adobe Color
+title: openai.fm
 category:
-  - color
+  - voise
 License: Free
 rating: ⭐⭐⭐
-link: https://color.adobe.com/
+link: https://www.openai.fm/
 layout: item
 ---
-

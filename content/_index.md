@@ -12,10 +12,10 @@ layout: wide
   {{< card link="ai" title="هوش مصنوعی" icon="book-open" >}}
 {{< /cards >}}
 
-
 {{< cards >}}
   {{< card link="font" title="فونت" icon="document-text" >}}
 {{< /cards >}}
+
 
 
 

@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "877f128c76c12b14",
+            "id": "da07015468965f80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "site/ui8.md",
+                "file": "font/_index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ui8"
+              "title": "_index"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"category\":ai",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,16 +168,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "877f128c76c12b14",
+  "active": "da07015468965f80",
   "lastOpenFiles": [
-    "site/chatgot.md",
-    "site/ui8.md",
-    "site/awwwards.md",
-    "site/MagicPattern.md",
-    "site/pinterest.md",
-    "site/lstoregraphics.md",
-    "site/pixeden.md",
-    "site/mockupworld.md",
-    "site/Adobe Color.md"
+    "font/info.webp",
+    "_index.md",
+    "font/_index.md",
+    "ai/Bing.md",
+    "font",
+    "ai/Adobe Firefly.md",
+    "ai/aixploria.md",
+    "ai/vizcom.md",
+    "ai/tensor art.md",
+    "ai/Stable Diffusion.md",
+    "ai/openaifm.md",
+    "ai/Ollama.md",
+    "ai/lmarena ai.md",
+    "ai/Leonardo AI.md",
+    "ai/Gemini.md",
+    "ai/freepik 1.md",
+    "ai/FLUX.md",
+    "ai/copilot.md",
+    "ai/civitai.md",
+    "ai/chatgot.md",
+    "ai/Chat GPT.md",
+    "ai/_index.md",
+    "site/freepik.md",
+    "site/_index.md",
+    "ai/craiyon.md",
+    "ai/midjourney.md",
+    "ai/DALL·E.md"
   ]
 }

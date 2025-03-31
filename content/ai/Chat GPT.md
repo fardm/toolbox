@@ -1,7 +1,7 @@
 ---
 title: Chat GPT
 category:
-  - ai
+  - Assistant
 License: Freemium
 group: Chat & Assistants
 link: https://chatgpt.com/
